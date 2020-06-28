@@ -19,8 +19,9 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+    - name: SSH connection to Actions
     - uses: P3TERX/debugger-action@master
 
     # Runs a single command using the runners shell
-    - name: SSH connection to Actions
+
    
